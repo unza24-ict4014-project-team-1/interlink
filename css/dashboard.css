@@ -1,0 +1,71 @@
+.bi {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+/*
+ * Sidebar
+ */
+
+@media (min-width: 768px) {
+  .sidebar .offcanvas-lg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+  .navbar-search {
+    display: block;
+  }
+}
+
+.sidebar .nav-link {
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+}
+.dashboard-sub{
+	background-color: rgb(200, 200, 220);
+}
+
+.hidden{
+  display: none;
+}
+
+table *{
+  font-size: 23px;
+}
+#submit-details-btn{
+  font-size: 35px;
+  font-weight: 530;
+  padding: 0 25px;
+  background: rgb(50,50,200)
+}
+
+.complaint{
+  margin: 60px 10px;
+  padding: 10px;
+  background: rgb(100, 255,100);
+}

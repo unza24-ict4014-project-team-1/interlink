@@ -1,0 +1,45 @@
+#login-container {
+    position: fixed; /* Fix the position */
+    top: 50%; /* Position from the top */
+    left: 50%; /* Position from the left */
+    transform: translate(-50%, -50%); /* Center the element */
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: white;
+    z-index: 100; /* Ensure it appears above other content */
+}
+
+#type{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 200%;
+    color: darkblue;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#login-container form *{
+    font-size: 120%;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.text-center {
+    text-align: center;
+}

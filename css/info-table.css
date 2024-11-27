@@ -1,0 +1,58 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	table-layout: auto;
+}
+
+#verification-form{
+	font-size: 80%;
+}
+
+.student-table {
+	font-size: 1em;
+}
+
+table td:nth-child(1){
+	background-color: rgb(200, 255, 200);
+}
+
+table td:nth-child(2){
+	background-color: rgb(255, 220, 220);
+}
+
+th, td {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+th {
+	background-color: #f2f2f2;
+}
+@media (max-width: 600px) {
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+	th {
+		display: none;
+	}
+	tr {
+		margin-bottom: 15px;
+	}
+	td {
+		text-align: right;
+		position: relative;
+		padding-left: 50%;
+	}
+	td::before {
+		content: attr(data-label);
+		position: absolute;
+		left: 10px;
+		width: calc(50% - 20px);
+		text-align: left;
+	}
+}

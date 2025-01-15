@@ -1,16 +1,10 @@
-*{
+* {
     color: black;
     font-size: 1.2em;
     text-decoration: none;
     font-family: "PT Sans Narrow", "PT Sans", sans-serif;
     margin: 0;
-    max-width: 100vh;
 }
-
-html{
-	font-size: 3vmax;
-}
-
 a{
     text-decoration: none;
 }
@@ -43,7 +37,6 @@ body{
     font-weight: 400;
     padding: 10px 8px;
     letter-spacing: 0ch;
-    width:100vw;
 }
 #info{
     padding: 3px;
